@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.bundle.min.js" defer></script>
+    <title>Formularios</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col-6">
+                <form action="">
+
+                    <div class="mb-3">
+                        <label for="correo" class="form-label">Correo electronico</label>
+                        <input type="text" id="correo" class="form-control" aria-describedby="ayuda-correo">
+                        <div id="ayuda-correo" class="form-text">
+                            *Te enviaremos un mensaje de confirmacion
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" class="form-control"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Enviar Comentario</button>
+                </form>
+            </div>
+
+            <div class="col-6">
+                <form action="">
+                    <input type="text" class="form-control form-control-lg mb-3" placeholder="Input Grande">
+                    <input type="text" class="form-control form-control-sm mb-3" placeholder="Input Pequenho">
+                    <input type="text" class="form-control mb-3" placeholder="Input Deshabilitado" disabled>
+                    <input type="text" class="form-control mb-3" placeholder="Input Solo Lectura" readonly>
+                    <input type="text" class="form-control form-control-plaintext mb-3" placeholder="Input Solo Lectura" readonly>
+                    <input type="file" class="form-control">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

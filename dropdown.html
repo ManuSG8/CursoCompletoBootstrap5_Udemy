@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js" defer></script>
+    <title>Dropdown</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col">
+                <div class="btn-group gap-2">
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdown-1" data-bs-toggle="dropdown" aria-expanded="false">Boton Dropdown</button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown-1">
+                            <li><a href="#" class="dropdown-item">Elemento #1</a></li>
+                            <li><a href="#" class="dropdown-item">Elemento #2</a></li>
+                            <li><a href="#" class="dropdown-item">Elemento #3</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="dropdown">
+                        <a href="#" class="btn btn-primary dropdown-toggle" type="button" id="dropdown-2" data-bs-toggle="dropdown" aria-expanded="false">Enlace Dropdown</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown-2">
+                            <li><a href="#" class="dropdown-item">Elemento #1</a></li>
+                            <li><a href="#" class="dropdown-item">Elemento #2</a></li>
+                            <li><a href="#" class="dropdown-item">Elemento #3</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="dropdown">
+                        <div class="btn-group">
+                            <button class="btn btn-info">Boton</button>
+                            <button class="btn btn-primary dropdown-toggle dropdown-toggle-split" type="button" id="dropdown-3" data-bs-toggle="dropdown" aria-expanded="false"><span class="visually-hidden">Mostrar / Ocultar Menu</span></button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdown-3">
+                                <li><a href="#" class="dropdown-item">Elemento #1</a></li>
+                                <li><a href="#" class="dropdown-item">Elemento #2</a></li>
+                                <li><a href="#" class="dropdown-item">Elemento #3</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="btn btn-dark dropdown-toggle" type="button" id="dropdown-1" data-bs-toggle="dropdown" aria-expanded="false">Boton Dropdown</button>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdown-1">
+                            <li><a href="#" class="dropdown-item">Elemento #1</a></li>
+                            <li><a href="#" class="dropdown-item">Elemento #2</a></li>
+                            <li><a href="#" class="dropdown-item">Elemento #3</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="btn-group gap-2">
+                    <div class="dropdown">
+                        <button class="btn btn-primary btn-lg dropdown-toggle" type="button" id="dropdown-1" data-bs-toggle="dropdown" aria-expanded="false">Boton Dropdown</button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown-1">
+                            <li><a href="#" class="dropdown-item">Elemento #1</a></li>
+                            <li><a href="#" class="dropdown-item">Elemento #2</a></li>
+                            <li><a href="#" class="dropdown-item">Elemento #3</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-primary btn-sm dropdown-toggle" type="button" id="dropdown-1" data-bs-toggle="dropdown" aria-expanded="false">Boton Dropdown</button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown-1">
+                            <li><a href="#" class="dropdown-item">Elemento #1</a></li>
+                            <li><a href="#" class="dropdown-item">Elemento #2</a></li>
+                            <li><a href="#" class="dropdown-item">Elemento #3</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-3 pt-5">
+                <div class="col">
+                    <div class="btn-group gap-2">
+                        <div class="dropup">
+                            <button class="btn btn-primary dropdown-toggle" type="button" id="dropup" data-bs-toggle="dropdown" aria-expanded="false">Boton Dropup</button>
+                            <ul class="dropdown-menu" aria-labelledby="dropup">
+                                <li><a href="#" class="dropdown-item">Elemento #1</a></li>
+                                <li><a href="#" class="dropdown-item">Elemento #2</a></li>
+                                <li><a href="#" class="dropdown-item">Elemento #3</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="dropstart">
+                            <button class="btn btn-primary dropdown-toggle" type="button" id="dropstart" data-bs-toggle="dropdown" aria-expanded="false">Boton Dropstart</button>
+                            <ul class="dropdown-menu" aria-labelledby="dropstart">
+                                <li><a href="#" class="dropdown-item">Elemento #1</a></li>
+                                <li><a href="#" class="dropdown-item">Elemento #2</a></li>
+                                <li><a href="#" class="dropdown-item">Elemento #3</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="dropend">
+                            <button class="btn btn-primary dropdown-toggle" type="button" id="dropend" data-bs-toggle="dropdown" aria-expanded="false">Boton Dropend</button>
+                            <ul class="dropdown-menu" aria-labelledby="dropend">
+                                <li><a href="#" class="dropdown-item">Elemento #1</a></li>
+                                <li><a href="#" class="dropdown-item">Elemento #2</a></li>
+                                <li><a href="#" class="dropdown-item">Elemento #3</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdown-personalizado" data-bs-toggle="dropdown" aria-expanded="false">Boton Dropdwon Personalizado</button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown-personalizado">
+                            <li><h6 class="dropdown-header">Encabezado</h6></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a href="#" class="dropdown-item">Elemento #1</a></li>
+                            <li><a href="#" class="dropdown-item">Elemento #2</a></li>
+                            <li><a href="#" class="dropdown-item">Elemento #3</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
