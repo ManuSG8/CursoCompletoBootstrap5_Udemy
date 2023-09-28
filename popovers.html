@@ -9,11 +9,16 @@
 </head>
 <body>
     <div class="container">
-        <div class="row mt-3">
+        <div class="row" style="margin-top: 200px;">
             <div class="col">
                 <button class="btn btn-lg btn-primary" data-bs-toggle="popover" title="Titulo del popover" data-bs-content="Lorem ipsum dolor sit amet." data-bs-placement="top">Popover Arriba</button>
             </div>
         </div>
     </div>
+
+    <script>
+        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+    </script>
 </body>
 </html>
