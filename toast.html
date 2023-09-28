@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js" defer></script>
+    <title>Toast</title>
+</head>
+<body>
+    <div class="toast-container position-absolute p-3" style="right: 0; top: 0;">
+        <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <strong class="me-auto">Titulo</strong>
+                <small>Hace 1 minuto</small>
+                <button type="button" class="btn-close" aria-label="Cerrar"></button>
+            </div>
+            <div class="toast-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </div>
+        </div>
+
+        <div class="toast bg-primary text-white show" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="d-flex">
+                <div class="toast-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </div>
+                <button type="button" class="btn-close btn-close-white me-2 m-auto" aria-label="Cerrar"></button>
+            </div>
+        </div>
+
+        <div class="toast bg-warning show" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="d-flex">
+                <div class="toast-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </div>
+                <button type="button" class="btn-close btn-close-white me-2 m-auto" aria-label="Cerrar"></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
